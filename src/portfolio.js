@@ -39,34 +39,48 @@ const skillsSection = {
   skills: [
     emoji("⚡ Cross-platform mobile app development using Flutter and Dart for Android and iOS"),
     emoji("⚡ MVVM architecture, RESTful APIs, Firebase integration, and robust debugging skills"),
-    emoji("⚡ Deep understanding of state management (Provider, BloC), UI/UX design, and CI/CD")
+    emoji("⚡ Deep understanding of state management (Provider, BloC), UI/UX design, and CI/CD"),
+    emoji("⚡ Experience with AI APIs (Gemini, Claude, MidJourney) and LangChain-style optimization techniques"),
+    emoji("⚡ Designed and deployed scalable apps using SOLID principles and modular OOP architecture")
   ],
   softwareSkills: [
     { skillName: "Flutter", fontAwesomeClassname: "fas fa-mobile-alt" },
     { skillName: "Dart", fontAwesomeClassname: "fab fa-code" },
-    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
-    { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "Java", fontAwesomeClassname: "fab fa-java" },
+    { skillName: "Kotlin", fontAwesomeClassname: "fab fa-android" },
+    { skillName: "C", fontAwesomeClassname: "fas fa-copyright" },
+    { skillName: "C++", fontAwesomeClassname: "fas fa-code-branch" },
     { skillName: "Node.js", fontAwesomeClassname: "fab fa-node" },
+    { skillName: "Firebase", fontAwesomeClassname: "fas fa-fire" },
+    { skillName: "Supabase", fontAwesomeClassname: "fas fa-server" },
     { skillName: "MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "SQLite", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "GitHub", fontAwesomeClassname: "fab fa-github" },
+    { skillName: "Postman", fontAwesomeClassname: "fas fa-vial" },
     { skillName: "HTML5", fontAwesomeClassname: "fab fa-html5" },
     { skillName: "CSS3", fontAwesomeClassname: "fab fa-css3-alt" },
-    { skillName: "Java", fontAwesomeClassname: "fab fa-java" }
+    { skillName: "MongoDB", fontAwesomeClassname: "fas fa-leaf" },
+    { skillName: "Figma", fontAwesomeClassname: "fab fa-figma" },
+    { skillName: "VS Code", fontAwesomeClassname: "fas fa-code" },
+    { skillName: "Android Studio", fontAwesomeClassname: "fas fa-laptop-code" }
   ],
   display: true
 };
 
+
 const educationInfo = {
   display: true,
   schools: [
-    {
+   {
       schoolName: "Government College University Faisalabad",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/gcufLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2021 – 2025",
-      desc: "Studied core computer science concepts and application development. Specialized in mobile and AI-integrated applications.",
+      desc: "Gained a solid foundation in Data Structures, Algorithms, Object-Oriented Programming, Operating Systems, and Database Management Systems through academic coursework and hands-on projects.",
       descBullets: [
-        "Prompt Engineering – Great Learning Academy | Nov 2024",
-        "Kotlin – Solo Learn | Feb 2023"
+        "Completed a semester project integrating web development with artificial intelligence for intelligent content delivery.",
+        "Led a team project in the 7th semester to build 'Library' – an educational mobile app using Flutter, which gained real-time student adoption and demonstrated full-stack app deployment skills.",
+        "Developing a capstone Final Year Project (TripCompass) in the 8th semester – a cross-platform AI-powered travel planner with offline-first support, GeoFencing alerts, and voice-based itinerary assistance for tourists."
       ]
     }
   ]
@@ -114,7 +128,7 @@ const bigProjects = {
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Library – Educational App",
-      projectDesc: "Student study material app using Google Drive API, Provider, and Shared Preferences.",
+      projectDesc: "Student study material app with Gemini AI, YouTube API, Google APIs, and state persistence using MVVM and Provider.",
       footerLink: [
         { name: "GitHub", url: "https://github.com/HaiderAli228/Library---Your-Study-Partner" },
         { name: "Download APK", url: "https://github.com/HaiderAli228/Library---Your-Study-Partner/releases/download/v1.0.0/LibraryYourStudyCompanion.apk" }
@@ -123,20 +137,50 @@ const bigProjects = {
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "MindMap – Thought Organizer",
-      projectDesc: "Idea organization app with caching, MySQL, and notification support.",
-      footerLink: []
+      projectDesc: "Idea management platform using Flutter, MySQL, caching, and MVVM.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/MindMap-Thought-Organizer" }
+      ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "NueraTalk – AI Chatbot",
-      projectDesc: "Chatbot using Gemini API and MySQL for real-time user interaction.",
-      footerLink: []
+      projectDesc: "Chatbot app with Gemini API integration and MySQL for real-time chat.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/NueraTalk--AI-Chatbot" }
+      ]
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
       projectName: "SnapSense – AI Image Generator",
-      projectDesc: "Image generator using MidJourney API, implemented with Bloc for state management.",
-      footerLink: []
+      projectDesc: "Image generation app powered by MidJourney API and Bloc state management.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/SnapSense--AI-Image-generator" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "GiveHope – Donation App",
+      projectDesc: "Flutter app for donation management with backend integration.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/GiveHope-Donation-App" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "OrderFood – Restaurant App",
+      projectDesc: "Restaurant order management app using Flutter.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/OrderFood---RestaurantApp" }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "News App",
+      projectDesc: "News application built with Flutter and news APIs.",
+      footerLink: [
+        { name: "GitHub", url: "https://github.com/HaiderAli228/News-App" }
+      ]
     }
   ],
   display: true
@@ -144,20 +188,34 @@ const bigProjects = {
 
 const achievementSection = {
   title: emoji("Achievements and Certifications 🏆"),
-  subtitle: "Certifications, Awards and Recognitions",
+  subtitle: "Some notable accomplishments and recognitions in my journey so far:",
   achievementsCards: [
     {
       title: "Prompt Engineering",
-      subtitle: "Certified by Great Learning Academy",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Prompt Logo",
+      subtitle: "Successfully completed the Prompt Engineering course from Great Learning Academy in November 2024.",
+      image: require("./assets/images/certification.png"),
+      imageAlt: "Prompt Engineering",
       footerLink: []
     },
     {
-      title: "Kotlin",
-      subtitle: "Certified by Solo Learn",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "Kotlin Logo",
+      title: "Kotlin Programming",
+      subtitle: "Completed Kotlin course on SoloLearn in February 2023, building a strong foundation in Android basics.",
+      image: require("./assets/images/certification.png"),
+      imageAlt: "Kotlin Course",
+      footerLink: []
+    },
+    {
+      title: "Course: Tech for Everyone",
+      subtitle: "Completed foundational tech literacy training covering digital tools, programming basics, and future trends.",
+      image: require("./assets/images/certification.png"),
+      imageAlt: "Tech Course",
+      footerLink: []
+    },
+    {
+      title: "Meta Hacker Cup Participant",
+      subtitle: "Participated in the Meta (Facebook) Hacker Cup Hackathon, solving algorithmic problems in competitive programming.",
+      image: require("./assets/images/hackathon.png"),
+      imageAlt: "Meta Hacker Cup",
       footerLink: []
     }
   ],
@@ -166,9 +224,20 @@ const achievementSection = {
 
 const blogSection = {
   title: "Blogs",
-  subtitle: "I love writing and teaching others what I’ve learned.",
-  displayMediumBlogs: "true",
-  blogs: [],
+  subtitle: "I share knowledge to empower developers and simplify complex concepts.",
+  displayMediumBlogs: "false",
+  blogs: [
+    {
+      url: "https://medium.com/@haiderali228/five-standout-project-ideas-for-a-resume-e040fba3f7f5",
+      title: "5 Standout Project Ideas for a Resume",
+      description: "Explore creative and impactful project ideas tailored to impress employers and demonstrate real-world coding experience."
+    },
+    {
+      url: "https://www.linkedin.com/pulse/alert-flutter-developers-fixing-gradle-conflict-issue-haider-ali-zl5jc/",
+      title: "Fixing Gradle Conflict Issue in Flutter",
+      description: "A detailed and beginner-friendly guide to resolving the Gradle plugin version issue in Flutter projects – a must-read for all new developers."
+    }
+  ],
   display: true
 };
 
