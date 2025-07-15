@@ -27,6 +27,9 @@ const socialMediaLinks = {
   github: "https://github.com/HaiderAli228",
   linkedin: "https://www.linkedin.com/in/haiderali228/",
   gmail: "flutter2830@gmail.com",
+  medium: "https://medium.com/@haiderali228",
+  stackoverflow: "https://stackoverflow.com/users/27008503/haider-ali",
+  leetcode: "https://leetcode.com/u/Haider-228/",
   display: true
 };
 
@@ -87,22 +90,15 @@ const workExperiences = {
       company: "NAVTTC",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "Jan 2025 – Present",
-      desc: "Mentoring students in mobile app development using Flutter, Dart, and Firebase."
+      desc: "Mentoring students in mobile app development using Flutter, Dart, and Firebase. Responsible for planning and delivering hands-on sessions, designing practical projects, and guiding students through MVVM architecture, API integration, and deployment best practices."
     },
     {
       role: "Flutter Developer Intern",
       company: "TechloSet Solution",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "July 2024 – Dec 2024",
-      desc: "Worked on real-world client projects, integrating APIs and optimizing mobile apps."
+      date: "Sep 2024 – Mar 2024",
+      desc: "Worked on real-world client projects, integrating third-party APIs and optimizing mobile applications for better performance. Contributed to the UI/UX development of commercial apps, implemented state management using Provider and BloC, resolved major bugs through in-depth debugging, worked with RESTful services and Google APIs, participated in daily stand-ups and code reviews."
     },
-    {
-      role: "Flutter Developer Apprentice",
-      company: "TechWare House",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2024 – Jun 2024",
-      desc: "Contributed to internal apps using MVVM architecture and SOLID principles."
-    }
   ]
 };
 
@@ -171,9 +167,9 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle: "I love writing and teaching others what I’ve learned.",
-  displayMediumBlogs: "false",
+  displayMediumBlogs: "true",
   blogs: [],
-  display: false
+  display: true
 };
 
 const talkSection = {
@@ -199,12 +195,12 @@ const resumeSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Want to discuss a project or just say hi? My inbox is open!",
-  number: "+92-0000000000",
+  number: "+92-349-6292972",
   email_address: "flutter2830@gmail.com"
 };
 
 const twitterDetails = {
-  userName: "", 
+  userName: "",
   display: false
 };
 
