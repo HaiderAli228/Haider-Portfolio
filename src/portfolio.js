@@ -113,6 +113,15 @@ const workExperiences = {
       date: "Sep 2024 – Mar 2024",
       desc: "Worked on real-world client projects, integrating third-party APIs and optimizing mobile applications for better performance. Contributed to the UI/UX development of commercial apps, implemented state management using Provider and BloC, resolved major bugs through in-depth debugging, worked with RESTful services and Google APIs, participated in daily stand-ups and code reviews."
     },
+    {
+  role: "SEO & Backlink Strategist",
+  company: "HS Marketing Agency",
+  companylogo: require("./assets/images/hsmarketingLogo.png"),
+  date: "Jan 2023 – Apr 2024",
+  desc: "Implemented comprehensive SEO strategies including on-page, off-page, and technical SEO that resulted in a 50% year-over-year increase in website traffic. Successfully built high-authority backlinks from reputable domains, contributing to a 15-point improvement in domain authority. Collaborated remotely to execute data-driven strategies that boosted search engine visibility and brand reach.",
+  skills: "SEO, Backlinks, Off-Page SEO, Technical SEO, On-Page SEO, Excel"
+},
+
   ]
 };
 
