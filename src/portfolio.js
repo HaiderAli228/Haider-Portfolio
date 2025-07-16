@@ -73,7 +73,6 @@ const educationInfo = {
   schools: [
    {
       schoolName: "Government College University Faisalabad",
-      logo: require("./assets/images/gcufLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
       duration: "2021 – 2025",
       desc: "Gained a solid foundation in Data Structures, Algorithms, Object-Oriented Programming, Operating Systems, and Database Management Systems through academic coursework and hands-on projects.",
