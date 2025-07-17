@@ -72,16 +72,18 @@ const educationInfo = {
   display: true,
   schools: [
    {
-      schoolName: "Government College University Faisalabad",
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "2021 – 2025",
-      desc: "Gained a solid foundation in Data Structures, Algorithms, Object-Oriented Programming, Operating Systems, and Database Management Systems through academic coursework and hands-on projects.",
-      descBullets: [
-        "Completed a semester project integrating web development with artificial intelligence for intelligent content delivery.",
-        "Led a team project in the 7th semester to build 'Library' – an educational mobile app using Flutter, which gained real-time student adoption and demonstrated full-stack app deployment skills.",
-        "Developing a capstone Final Year Project (TripCompass) in the 8th semester – a cross-platform AI-powered travel planner with offline-first support, GeoFencing alerts, and voice-based itinerary assistance for tourists."
-      ]
-    }
+  schoolName: "Government College University Faisalabad",
+  subHeader: "Bachelor of Science in Computer Science (BSCS)",
+  duration: "2021 – 2025",
+  schoollogo: require("./assets/images/gcuf.jpg"),
+  desc: "Built a strong academic foundation in key areas of computer science including Data Structures, Algorithms, Object-Oriented Programming (OOP), Operating Systems, Database Management Systems (DBMS), Software Engineering, Artificial Intelligence (AI), Computer Networks, and Human-Computer Interaction. Developed practical expertise through academic coursework, real-world projects, and team collaborations.",
+  descBullets: [
+    "Completed a semester project integrating web development and AI to deliver personalized educational content based on user behavior.",
+    "Led a 7th-semester team project to develop 'Library' – a cross-platform mobile app built using Flutter for streamlined access to academic resources, achieving real-time adoption among students.",
+    "Currently working on the Final Year Project (FYP) titled 'TripCompass' – an intelligent travel planner app with AI-generated itineraries, offline-first capabilities, geofencing alerts, and voice command features to assist tourists on the go."
+  ]
+}
+
   ]
 };
 
@@ -99,25 +101,27 @@ const workExperiences = {
   display: true,
   experience: [
     {
-      role: "Flutter Trainer & Mentor",
-      company: "NAVTTC",
-      date: "Jan 2025 – Present",
-      desc: "Mentoring students in mobile app development using Flutter, Dart, and Firebase. Responsible for planning and delivering hands-on sessions, designing practical projects, and guiding students through MVVM architecture, API integration, and deployment best practices."
-    },
-    {
-      role: "Flutter Developer Intern",
-      company: "TechloSet Solution",
-      date: "Sep 2024 – Mar 2024",
-      desc: "Worked on real-world client projects, integrating third-party APIs and optimizing mobile applications for better performance. Contributed to the UI/UX development of commercial apps, implemented state management using Provider and BloC, resolved major bugs through in-depth debugging, worked with RESTful services and Google APIs, participated in daily stand-ups and code reviews."
-    },
-    {
+  role: "Flutter Trainer & Mentor",
+  company: "NAVTTC",
+  companylogo: require("./assets/images/navttc.jpg"),
+  date: "Jan 2025 – Present",
+  desc: "Mentoring students in mobile app development using Flutter, Dart, and Firebase. Responsible for planning and delivering hands-on sessions, designing practical projects, and guiding students through MVVM architecture, API integration, and deployment best practices."
+},
+{
+  role: "Flutter Developer Intern",
+  company: "TechloSet Solution",
+  companylogo: require("./assets/images/techloset.jpg"),
+  date: "Sep 2024 – Mar 2024",
+  desc: "Worked on real-world client projects, integrating third-party APIs and optimizing mobile applications for better performance. Contributed to the UI/UX development of commercial apps, implemented state management using Provider and BloC, resolved major bugs through in-depth debugging, worked with RESTful services and Google APIs, participated in daily stand-ups and code reviews."
+},
+{
   role: "SEO & Backlink Strategist",
   company: "HS Marketing Agency",
+  companylogo: require("./assets/images/seo.jpg"),
   date: "Jan 2023 – Apr 2024",
-  desc: "Implemented comprehensive SEO strategies including on-page, off-page, and technical SEO that resulted in a 50% year-over-year increase in website traffic. Successfully built high-authority backlinks from reputable domains, contributing to a 15-point improvement in domain authority. Collaborated remotely to execute data-driven strategies that boosted search engine visibility and brand reach.",
+  desc: "Implemented comprehensive SEO strategies, including on-page, off-page, and technical SEO that resulted in a 50% year-over-year increase in website traffic. Successfully built high-authority backlinks from reputable domains, contributing to a 15-point improvement in domain authority. Collaborated remotely to execute data-driven strategies that boosted search engine visibility and brand reach.",
   skills: "SEO, Backlinks, Off-Page SEO, Technical SEO, On-Page SEO, Excel"
-},
-
+}
   ]
 };
 
@@ -131,7 +135,7 @@ const bigProjects = {
   subtitle: "FEATURED APPLICATIONS I'VE DEVELOPED",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/library.png"),
       projectName: "Library – Educational App",
       projectDesc: "Student study material app with Gemini AI, YouTube API, Google APIs, and state persistence using MVVM and Provider.",
       footerLink: [
@@ -140,7 +144,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/mindmap.png"),
       projectName: "MindMap – Thought Organizer",
       projectDesc: "Idea management platform using Flutter, MySQL, caching, and MVVM.",
       footerLink: [
@@ -148,7 +152,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/neuratalk.png"),
       projectName: "NueraTalk – AI Chatbot",
       projectDesc: "Chatbot app with Gemini API integration and MySQL for real-time chat.",
       footerLink: [
@@ -156,15 +160,24 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+  image: require("./assets/images/snapmotion.png"),
+  projectName: "SnapMotion – AI Video Generator",
+  projectDesc: "AI-powered video generation app using Hugging Face model and Bloc state management. Users can upload images and generate visually stunning AI-generated videos.",
+  footerLink: [
+    { name: "GitHub", url: "https://github.com/HaiderAli228/SnapMotion-AI-Video-Generator" }
+  ]
+}
+{
+      image: require("./assets/images/snapsense.png"),
       projectName: "SnapSense – AI Image Generator",
       projectDesc: "Image generation app powered by MidJourney API and Bloc state management.",
       footerLink: [
         { name: "GitHub", url: "https://github.com/HaiderAli228/SnapSense--AI-Image-generator" }
       ]
     },
+    
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/donation.png"),
       projectName: "GiveHope – Donation App",
       projectDesc: "Flutter app for donation management with backend integration.",
       footerLink: [
@@ -172,7 +185,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/hotel.png"),
       projectName: "OrderFood – Restaurant App",
       projectDesc: "Restaurant order management app using Flutter.",
       footerLink: [
@@ -180,7 +193,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/news.png"),
       projectName: "News App",
       projectDesc: "News application built with Flutter and news APIs.",
       footerLink: [
@@ -197,29 +210,29 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Prompt Engineering",
-      subtitle: "Successfully completed the Prompt Engineering course from Great Learning Academy in November 2024.",
-      image: require("./assets/images/certification.png"),
+      subtitle: "Completed the Prompt Engineering course from Great Learning Academy in November 2024.",
+      image: require("./assets/images/prompt.png"),
       imageAlt: "Prompt Engineering",
       footerLink: []
     },
     {
       title: "Kotlin Programming",
       subtitle: "Completed Kotlin course on SoloLearn in February 2023, building a strong foundation in Android basics.",
-      image: require("./assets/images/certification.png"),
+      image: require("./assets/images/kotlin.jpg"),
       imageAlt: "Kotlin Course",
       footerLink: []
     },
     {
       title: "Course: Tech for Everyone",
       subtitle: "Completed foundational tech literacy training covering digital tools, programming basics, and future trends.",
-      image: require("./assets/images/certification.png"),
+      image: require("./assets/images/tech.jpg"),
       imageAlt: "Tech Course",
       footerLink: []
     },
     {
       title: "Meta Hacker Cup Participant",
       subtitle: "Participated in the Meta (Facebook) Hacker Cup Hackathon, solving algorithmic problems in competitive programming.",
-      image: require("./assets/images/hackathon.png"),
+      image: require("./assets/images/meta.png"),
       imageAlt: "Meta Hacker Cup",
       footerLink: []
     }
