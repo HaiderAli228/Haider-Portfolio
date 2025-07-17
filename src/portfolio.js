@@ -19,7 +19,7 @@ const greeting = {
   subTitle: emoji(
     "Full Stack Application Developer | Flutter & Node.js | AI-Driven & Scalable App Integration | Native and Hybrid Application Development | MVVM and Clean Architecture | SOLID Principles and Design Patterns | API Integration | State Management (BloC and Provider) | Navigation and Routing Techniques | Animations | OOP and Functional Programming | Database (SQL, SQLite, Shared Preferences, Firebase) | CI/CD | Deployment"
   ),
-  resumeLink: "https://drive.google.com/uc?export=download&id=1F-2ViRGFQQuJErWpKWTtuY2P7-6JjglA",
+  resumeLink: "https://github.com/HaiderAli228/Flutter-Components/releases/download/v1.0.0/Haider.Mobile.Dev.Resuma.pdf",
   displayGreeting: true
 };
 
