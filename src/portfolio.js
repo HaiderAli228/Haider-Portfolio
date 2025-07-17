@@ -148,7 +148,7 @@ const bigProjects = {
       projectName: "MindMap – Thought Organizer",
       projectDesc: "Idea management platform using Flutter, MySQL, caching, and MVVM.",
       footerLink: [
-        { name: "GitHub", url: "https://github.com/HaiderAli228/MindMap-Thought-Organizer" }
+        { name: "GitHub", url: "https://github.com/HaiderAli228/MindMap-Thought-Organizer" },
         { name: "Download APK", url: "https://github.com/HaiderAli228/MindMap---APK/releases/download/v1.1.0/MindMap-app-release.apk" }
       ]
     },
