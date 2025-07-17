@@ -166,7 +166,7 @@ const bigProjects = {
   footerLink: [
     { name: "GitHub", url: "https://github.com/HaiderAli228/SnapMotion-AI-Video-Generator" }
   ]
-}
+},
 {
       image: require("./assets/images/snapsense.png"),
       projectName: "SnapSense – AI Image Generator",
