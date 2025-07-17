@@ -19,7 +19,7 @@ const greeting = {
   subTitle: emoji(
     "Full Stack Application Developer | Flutter & Node.js | AI-Driven & Scalable App Integration | Native and Hybrid Application Development | MVVM and Clean Architecture | SOLID Principles and Design Patterns | API Integration | State Management (BloC and Provider) | Navigation and Routing Techniques | Animations | OOP and Functional Programming | Database (SQL, SQLite, Shared Preferences, Firebase) | CI/CD | Deployment"
   ),
-  resumeLink: "",
+  resumeLink: "https://drive.google.com/file/d/1F-2ViRGFQQuJErWpKWTtuY2P7-6JjglA/view?usp=sharing",
   displayGreeting: true
 };
 
