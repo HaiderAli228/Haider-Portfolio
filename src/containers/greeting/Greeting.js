@@ -46,7 +46,10 @@ export default function Greeting() {
                     download="Resume.pdf"
                     className="download-link-button"
                   >
-                    <Button text="Download my resume" />
+                    <Button text="Download my resume"
+                      href={require("./resume.pdf")}
+                        download // <- this enables same-tab download
+                          />
                   </a>
                 )}
               </div>
