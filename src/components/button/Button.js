@@ -1,23 +1,10 @@
 import React from "react";
 import "./Button.scss";
 
-export default function Button({ text, className, href, newTab }) {
-  const handleDownload = () => {
-    const iframe = document.createElement("iframe");
-    iframe.style.display = "none";
-    iframe.src = href;
-    document.body.appendChild(iframe);
-  };
-
+export default function Button({text, className, href, newTab}) {
   return (
     <div className={className}>
-      <a
-        className="main-button"
-        href={newTab ? href : undefined}
-        target={newTab ? "_blank" : undefined}
-        rel="noreferrer"
-        onClick={!newTab ? handleDownload : undefined}
-      >
+      <a className="main-button" href={href} target={newTab && "_blank"}>
         {text}
       </a>
     </div>
