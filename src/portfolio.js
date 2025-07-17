@@ -76,7 +76,7 @@ const educationInfo = {
   subHeader: "Bachelor of Science in Computer Science (BSCS)",
   duration: "2021 – 2025",
   schoollogo: require("./assets/images/gcuf.jpg"),
-  desc: "Built a strong academic foundation in key areas of computer science including Data Structures, Algorithms, Object-Oriented Programming (OOP), Operating Systems, Database Management Systems (DBMS), Software Engineering, Artificial Intelligence (AI), Computer Networks, and Human-Computer Interaction. Developed practical expertise through academic coursework, real-world projects, and team collaborations.",
+  desc: "Built a strong academic foundation in key areas of computer science, including Data Structures, Algorithms, Object-Oriented Programming (OOP), Operating Systems, Database Management Systems (DBMS), Software Engineering, Artificial Intelligence (AI), Computer Networks, and Human-Computer Interaction. Developed practical expertise through academic coursework, real-world projects, and team collaborations.",
   descBullets: [
     "Completed a semester project integrating web development and AI to deliver personalized educational content based on user behavior.",
     "Led a 7th-semester team project to develop 'Library' – a cross-platform mobile app built using Flutter for streamlined access to academic resources, achieving real-time adoption among students.",
@@ -104,14 +104,14 @@ const workExperiences = {
   role: "Flutter Trainer & Mentor",
   company: "NAVTTC",
   companylogo: require("./assets/images/navttc.jpg"),
-  date: "Jan 2025 – Present",
+  date: "March 2025 – May 2025",
   desc: "Mentoring students in mobile app development using Flutter, Dart, and Firebase. Responsible for planning and delivering hands-on sessions, designing practical projects, and guiding students through MVVM architecture, API integration, and deployment best practices."
 },
 {
   role: "Flutter Developer Intern",
   company: "TechloSet Solution",
   companylogo: require("./assets/images/techloset.jpg"),
-  date: "Sep 2024 – Mar 2024",
+  date: "July 2024 – Sept 2024",
   desc: "Worked on real-world client projects, integrating third-party APIs and optimizing mobile applications for better performance. Contributed to the UI/UX development of commercial apps, implemented state management using Provider and BloC, resolved major bugs through in-depth debugging, worked with RESTful services and Google APIs, participated in daily stand-ups and code reviews."
 },
 {
